@@ -4,7 +4,6 @@ public class Auth {
     static Scanner input = new Scanner(System.in);
 
     public static boolean login() {
-        input.nextLine();
         System.out.print("Masukkan NIP: ");
         String nip = input.nextLine();
 
